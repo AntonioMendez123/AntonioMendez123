@@ -1068,3 +1068,358 @@ html,body {
 }
 
 /*DATOS TERCERAAA PAGINAAAAAAAAAAAAAAAAAAAAA*/
+
+#navi1 {  
+    list-style:none;
+    margin:0;
+    padding-right: 65px;
+    padding-left: 65px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: 1fr;
+    grid-column-gap: 15px;
+    grid-row-gap: 5px;
+    padding-right: 500px;
+    padding-left: 500px;
+   padding-bottom: 30px;
+   padding-top: 30px;
+   background-color:#121111;
+  }
+  #navi1 li {
+    background-color:#121111;
+  }
+  #navi1 li a {
+    display: inline-block; 
+    width:100px;
+    background-color:#121111;
+
+    text-decoration:none;
+   
+    font-family:sans-serif ;
+    font-size:12px;
+    color:white;
+    
+    text-align: start;
+    
+  }
+  
+  #navi1 li a:hover {
+    color:rgb(219, 242, 15);
+    background-color:#121111;
+  }
+  
+.titulo-seccion1{
+ 
+  background-image: url("https://sm.ign.com/ign_br/screenshot/default/1_h94k.jpg");
+  background-size: cover;
+  background-position: center center;
+  height: 551px
+ 
+  }
+
+
+.titulo-submenu-console{
+color: white;
+font-size: 18px;
+text-transform: uppercase;
+
+background-color: #000000;
+}
+
+
+.sloganpagina2{
+  background-image:url("https://free4kwallpapers.com/uploads/originals/2020/05/12/christmas-tree-christmas-toys-by-annie-spratt-wallpaper.jpg");
+  font-family: sans-serif;
+  color: rgb(255, 255, 255);
+  font-size: 22px;
+  padding: 7px 13px;
+  border-radius: 3px;
+  text-transform: uppercase;
+  background-size: cover;
+  background-position: center center;
+  height: 500px;
+  margin-top:5px;
+}
+
+#slogan-bajotis-console{
+  font-family: sans-serif;
+  color: rgb(219, 242, 15);
+  font-size: 25px;
+  padding: 7px 13px;
+  border-radius: 3px;
+  text-transform: uppercase;
+  position: relative;
+  bottom: -170px;
+
+ 
+
+}
+#slogan-bajotis2-console{
+  font-family: sans-serif;
+  color: rgb(255, 255, 255);
+  font-size: 15px;
+  padding: 7px 13px;
+  border-radius: 3px;
+  text-transform: uppercase;
+  position: relative;
+  bottom: -180px;
+ 
+
+}
+
+#slogan-bajotis3-console{
+  font-family: sans-serif;
+  color: rgb(219, 242, 15);
+  font-size: 12px;
+  padding: 7px 13px;
+  border-radius: 3px;
+  text-transform: uppercase;
+  position: relative;
+  bottom: -190px;
+ 
+
+}
+
+#slogan-bajotis4-console{
+  font-family: sans-serif;
+  color: rgb(255, 255, 255);
+  font-size: 15px;
+  padding: 7px 13px;
+  border-radius: 3px;
+  text-transform: uppercase;
+  position: relative;
+  bottom: -200px;
+ 
+
+}
+
+/*DATOS CUATROOO PAGINAAAAAAAAAAAAAAAAAAAAA*/
+#navi2 {  
+	list-style:none;
+	margin:0;
+	padding:0;
+  display: grid;
+  grid-template-columns: repeat(12, 1fr);
+  grid-template-rows: 1fr;
+  grid-column-gap: 15px;
+  grid-row-gap: 5px;
+}
+#navi2 li {
+	margin:2px;
+	padding:0; 
+	padding-left: 25px;
+  padding-right: 10px;
+}
+#navi2 li a {
+	display:block; 
+	width:50px;
+	padding:4px 0;
+	text-decoration:none;
+	text-align:center;
+	font-size:11px;
+	color:#FFFFFF;
+	background-color:#000000;
+  text-align: start;
+}
+
+#navi2 li a:hover {
+	color:rgb(219, 242, 15);
+    background-color:#000000;
+}
+
+
+.grid-container1{
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: 1fr;
+  grid-column-gap:0px;
+  grid-row-gap: 0px;
+ 
+  
+}
+.grid-item2{
+  font-family: sans-serif;
+  text-align: start;
+  background-color: #000000;
+  position: relative;
+  left: 55px;
+ 
+ }
+ .titulo-submenu-mobile1{
+   font-size: 18px;
+   text-transform: uppercase;
+   color: white;
+   background-color: #000000;
+   
+ }
+ 
+ .parrafo-submenu-pc2{
+   font-size: 14px;
+   color: rgb(131, 129, 129);
+   background-color: #000000;
+ }
+ 
+ .ver-mas-pc1{
+   font-size: 14px;
+   color:rgb(219, 242, 15);
+   padding-bottom: 20px;
+   background-color: #000000;
+ }
+ 
+ #codigo1{
+   color: #000000;
+   padding-top: 10px;
+   background-color: #000000;
+}
+
+.titulo-seccion10{
+  text-align:center;
+  font-family:sans-serif ;
+	font-size:12px;
+  color: white;
+  padding-bottom: 20px;
+  background-color: #121111;
+ 
+
+} 
+
+.sloganpagina3{
+  background-image:url("https://www.xtrafondos.com/wallpapers/audifonos-sennheiser-2549.jpg");
+  font-family: sans-serif;
+  color: rgb(255, 255, 255);
+  font-size: 22px;
+  padding: 7px 13px;
+  border-radius: 3px;
+  text-transform: uppercase;
+  background-size: cover;
+  background-position: center center;
+  height: 500px;
+  margin-top:5px;
+}
+#slogan-bajotis-mobile{
+  font-family: sans-serif;
+  color: rgb(252, 252, 252);
+  font-size: 25px;
+  padding: 7px 13px;
+  border-radius: 3px;
+  text-transform: uppercase;
+  position: relative;
+  bottom: -370px;
+
+ 
+
+}
+
+#slogan-bajotis2-mobile{
+  font-family: sans-serif;
+  color: rgb(255, 255, 255);
+  font-size: 15px;
+  padding: 7px 13px;
+  border-radius: 3px;
+  text-transform: uppercase;
+  position: relative;
+  bottom: -380px;
+ 
+
+}
+
+#slogan-bajotis3-mobile{
+  font-family: sans-serif;
+  color: rgb(219, 242, 15);
+  font-size: 12px;
+  padding: 7px 13px;
+  border-radius: 3px;
+  text-transform: uppercase;
+  position: relative;
+  bottom: -390px;
+ 
+
+}
+
+#slogan-bajotis4-mobile{
+  font-family: sans-serif;
+  color: rgb(255, 255, 255);
+  font-size: 15px;
+  padding: 7px 13px;
+  border-radius: 3px;
+  text-transform: uppercase;
+  position: relative;
+  bottom: -400px;
+ 
+
+}
+
+.sloganpagina4{
+  background-image:url("https://wallpaperaccess.com/full/909284.png");
+  font-family: sans-serif;
+  color: rgb(255, 255, 255);
+  font-size: 22px;
+  padding: 7px 13px;
+  border-radius: 3px;
+  text-transform: uppercase;
+  background-size: cover;
+  background-position: center center;
+  height: 500px;
+  margin-top:5px;
+}
+#slogan-bajotis-mobile1{
+  font-family: sans-serif;
+  color: rgb(252, 252, 252);
+  font-size: 25px;
+  padding: 7px 13px;
+  border-radius: 3px;
+  text-transform: uppercase;
+  position: relative;
+  bottom: -90px;
+  left: 390px;
+
+ 
+
+}
+
+#slogan-bajotis2-mobile1{
+  font-family: sans-serif;
+  color: rgb(255, 255, 255);
+  font-size: 15px;
+  padding: 7px 13px;
+  border-radius: 3px;
+  text-transform: uppercase;
+  position: relative;
+  bottom: -100px;
+  left: 490px;
+
+ 
+
+}
+
+#slogan-bajotis3-mobile1{
+  font-family: sans-serif;
+  color: rgb(219, 242, 15);
+  font-size: 12px;
+  padding: 7px 13px;
+  border-radius: 3px;
+  text-transform: uppercase;
+  position: relative;
+  bottom: -100px;
+  left: 570px;
+ 
+
+}
+
+#slogan-bajotis4-mobile1{
+  font-family: sans-serif;
+  color: rgb(255, 255, 255);
+  font-size: 15px;
+  padding: 7px 13px;
+  border-radius: 3px;
+  text-transform: uppercase;
+  position: relative;
+  bottom: -600px;
+  left: 600px;
+ 
+
+}
+
+ 
