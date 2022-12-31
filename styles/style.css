@@ -1541,8 +1541,9 @@ background-color: #000000;
   text-shadow: 0px 1px 2px rgba(0, 0, 0, 0.33), -1px 0px 2px rgba(255, 255, 255, 0);
 }
 .sloganpagina5{
-  background-image:url("https://www.gizmodo.com.au/wp-content/uploads/sites/2/2021/03/31/bc6rny3at9xcsuwjwd0j.png?q=65&w=1280");
+  background-image:url("../images/image.png");
   font-family: sans-serif;
+  
   color: rgb(255, 255, 255);
   font-size: 22px;
   padding: 7px 13px;
@@ -1553,3 +1554,420 @@ background-color: #000000;
   height: 500px;
   margin-top:5px;
 }
+
+#slogan-bajotis-style1{
+  font-family: sans-serif;
+  color: rgb(219, 242, 15);
+  font-size: 25px;
+  padding: 7px 13px;
+  border-radius: 3px;
+  text-transform: uppercase;
+  position: relative;
+  bottom:-450px;
+  left: 790px;
+
+ 
+
+}
+
+#slogan-bajotis2-style1{
+  font-family: sans-serif;
+  color: rgb(255, 254, 254);
+  font-size: 15px;
+  padding: 7px 13px;
+  border-radius: 3px;
+  text-transform: uppercase;
+  position: relative;
+  bottom: -100px;
+  left: 490px;
+
+ 
+
+}
+
+#slogan-bajotis3-style1{
+  font-family: sans-serif;
+  color: rgb(219, 242, 15);
+  font-size: 12px;
+  padding: 7px 13px;
+  border-radius: 3px;
+  text-transform: uppercase;
+  position: relative;
+  bottom: -100px;
+  left: 570px;
+ 
+
+}
+
+#slogan-bajotis4-style1{
+  font-family: sans-serif;
+  color: rgb(32, 220, 38);
+  font-size: 15px;
+  padding: 7px 13px;
+  border-radius: 3px;
+  text-transform: uppercase;
+  position: relative;
+  bottom: -600px;
+  left: 600px;
+ 
+
+}
+
+.grid-container2{
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: repeat(2, 1fr);
+  grid-column-gap: 0px;
+  grid-row-gap: 0px;
+  background-color: #000000;
+ 
+ 
+  
+}
+.grid-item3{
+  font-family: sans-serif;
+  text-align:center;
+  background-color: #000000;
+
+  position: relative;
+ 
+ 
+ 
+}
+.grid-itemdesplazado{
+  font-family: sans-serif;
+  text-align: start;
+  background-color: #000000;
+
+  position: relative;
+  
+  margin-left: 60px;
+ 
+ 
+}
+.grid-itemdesplazado1{
+  font-family: sans-serif;
+  text-align: start;
+  background-color: #000000;
+
+  position: relative;
+  
+  margin-right: 60px;
+ 
+ 
+}
+
+ .titulo-submenu-mobile2{
+   font-size: 18px;
+   text-transform: uppercase;
+   color: white;
+   background-color: #000000;
+
+   
+ }
+ 
+ .parrafo-submenu-pc3{
+   font-size: 14px;
+   color: rgb(131, 129, 129);
+   background-color: #000000;
+ }
+ 
+ .ver-mas-pc2{
+   font-size: 14px;
+   color:rgb(219, 242, 15);
+   padding-bottom: 20px;
+   background-color: #000000;
+ }
+ 
+ #imagen_menu2{
+  width:200px;
+  height: 200px;
+  background-color: #000000;
+}
+#codigo2{
+  color:#000000;
+  padding-top: 10px;
+  background-color: #000000;
+}
+.sloganpagina6{
+  background-image:url("https://m.media-amazon.com/images/I/91+rzRntCKL.jpg");
+  font-family: sans-serif;
+  
+  color: rgb(255, 255, 255);
+  font-size: 22px;
+  padding: 7px 13px;
+  border-radius: 3px;
+  text-transform: uppercase;
+  background-size: cover;
+  background-position: center center;
+  height: 500px;
+  margin-top:5px;
+}
+
+#slogan-bajotis-style1-back{
+  font-family: sans-serif;
+  color: rgb(255, 255, 255);
+  font-size: 25px;
+  padding: 7px 13px;
+  border-radius: 3px;
+  text-transform: uppercase;
+  position: relative;
+  bottom:-450px;
+  left: 790px;
+}
+
+#navi3 {  
+	list-style:none;
+	margin:0;
+	padding:0;
+  display: grid;
+  grid-template-columns: repeat(7, 1fr);
+  grid-template-rows: 1fr;
+  grid-column-gap: 0px;
+  grid-row-gap: 5px;
+ margin: 12px;
+}
+#navi3 li {
+	margin:2px;
+	padding:0; 
+	padding-left: 65px;
+  padding-right: 10px;
+ 
+}
+#navi3 li a {
+	display:block;
+	width:50px;
+	padding:4px 0;
+	text-decoration:none;
+	text-align:start;
+	font-size:11px;
+	color:#FFFFFF;
+	background-color:#000000;
+  text-align: start;
+}
+
+#navi3 li a:hover {
+	color:rgb(219, 242, 15);
+    background-color:#000000;
+}
+
+
+.sloganpagina7{
+  background-image:url("../images/dark.png");
+  font-family: sans-serif;
+  color: rgb(255, 255, 255);
+  font-size: 22px;
+  padding: 7px 13px;
+  border-radius: 3px;
+  text-transform: uppercase;
+  background-size: cover;
+  background-position: center center;
+  height: 500px;
+  
+}
+
+
+#slogan-bajotis-services{
+  font-family: sans-serif;
+  color: rgb(255, 255, 255);
+  font-size: 25px;
+  padding: 7px 13px;
+  border-radius: 3px;
+  text-transform: uppercase;
+  position: relative;
+  bottom: -450px;
+  left: 880px;
+
+ 
+
+}
+
+.sloganpagina8{
+  background-image:url("https://thepointsguy.global.ssl.fastly.net/us/originals/2020/05/Gift-cards.jpg");
+  font-family: sans-serif;
+  color: rgb(255, 255, 255);
+  font-size: 22px;
+  padding: 7px 13px;
+  border-radius: 3px;
+  text-transform: uppercase;
+  background-size: cover;
+  background-position: center center;
+  height: 500px;
+  
+}
+
+
+#slogan-bajotis-services1{
+  font-family: sans-serif;
+  color: rgb(255, 255, 255);
+  font-size: 25px;
+  padding: 7px 13px;
+  border-radius: 3px;
+  text-transform: uppercase;
+  position: relative;
+  bottom: -450px;
+  left: 880px;
+
+ 
+
+}
+
+.sloganpagina9{
+  background-image:url("https://wallpaperaccess.com/full/7177837.jpg");
+  font-family: sans-serif;
+  color: rgb(255, 255, 255);
+  font-size: 22px;
+  padding: 7px 13px;
+  border-radius: 3px;
+  text-transform: uppercase;
+  background-size: cover;
+  background-position: center center;
+  height: 500px;
+  
+}
+
+#navi4 {  
+	list-style:none;
+	margin:0;
+	padding:0;
+  display: grid;
+  grid-template-columns: repeat(10, 1fr);
+  grid-template-rows: 1fr;
+  grid-column-gap: 0px;
+  grid-row-gap: 5px;
+ margin: 12px;
+}
+#navi4 li {
+	margin:2px;
+	padding:0; 
+  margin-left: 40px;
+ 
+}
+#navi4 li a {
+	display:block;
+	width:80px;
+	padding:4px 0;
+	text-decoration:none;
+	text-align:start;
+	font-size:11px;
+	color:#FFFFFF;
+	background-color:#000000;
+  text-align: start;
+}
+
+#navi4 li a:hover {
+	color:rgb(219, 242, 15);
+    background-color:#000000;
+}
+.sloganpagina10{
+  background-image:url("https://images.unsplash.com/photo-1592156668899-2cc871c9ac2d?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1yZWxhdGVkfDE1fHx8ZW58MHx8fHw%3D&w=1000&q=80");
+  font-family: sans-serif;
+  color: rgb(255, 255, 255);
+  font-size: 22px;
+  padding: 7px 13px;
+  border-radius: 3px;
+  text-transform: uppercase;
+  background-size: cover;
+  background-position: center center;
+  height: 500px;
+  
+}
+.sloganpagina40{
+  background-image:url("https://wallscloud.net/img/resize/1920/1080/MM/2016-10-04-dark-space-VvnB.jpg");
+  font-family: sans-serif;
+  color: rgb(255, 255, 255);
+  font-size: 22px;
+  padding: 7px 13px;
+  border-radius: 3px;
+  text-transform: uppercase;
+  background-size: cover;
+  background-position: center center;
+  height: 500px;
+  
+}
+#slogan-bajotis2-comunity{
+  font-family: sans-serif;
+  color: rgb(255, 255, 255);
+  font-size: 21px;
+  padding: 7px 13px;
+  border-radius: 3px;
+  text-transform: uppercase;
+  position: relative;
+  bottom: -90px;
+  left: 460px;
+
+ 
+
+}
+#slogan-bajotis2-comunity2{
+  font-family: sans-serif;
+  color: rgb(255, 255, 255);
+  font-size: 25px;
+  padding: 7px 13px;
+  border-radius: 3px;
+  text-transform: uppercase;
+  position: relative;
+  bottom: -90px;
+  left: 355px;
+
+ 
+
+}
+
+@import url(https://fonts.googleapis.com/css?family=Open+Sans);
+
+body{
+  background: #f2f2f2;
+  font-family: 'Open Sans', sans-serif;
+}
+
+.search {
+  width: 100%;
+  position: relative;
+  display: flex;
+}
+
+.searchTerm {
+  width: 100%;
+  border: 3px solid #00B4CC;
+  border-right: none;
+  padding: 5px;
+  height: 20px;
+  border-radius: 5px 0 0 5px;
+  outline: none;
+  color: #9DBFAF;
+}
+
+.searchTerm:focus{
+  color: #00B4CC;
+}
+
+.searchButton {
+  width: 40px;
+  height: 36px;
+  border: 1px solid #00B4CC;
+  background: #00B4CC;
+  text-align: center;
+  color: #fff;
+  border-radius: 0 5px 5px 0;
+  cursor: pointer;
+  font-size: 20px;
+}
+
+/*Resize the wrap to see the search bar change!*/
+.wrap{
+  width: 30%;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+
+@import url('https://fonts.googleapis.com/css?family=Inconsolata:700');
+
+
+.logodeDaniel{
+  
+}
+
