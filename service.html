@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="shortcut icon" href="./images/logo.png"> 
+        <script src="./js/js.js"></script>
+        <title>DM Store Shopping</title>
+        <link rel="stylesheet" href="./styles/style.css">
+        <script src="https://kit.fontawesome.com/512c9c7e8d.js" crossorigin="anonymous"></script>
+    </head>
+    <body class="body">
+        <!-- Menu de objetos -->
+       <div>
+        
+        <nav>
+          <input type="checkbox" id="check">
+          <label for="check" class="checkbtn">
+              <i class="fas fa-bars"></i>
+          </label>
+         
+          <ul>
+              <li><a class="active" href="./index.html">Inicio</a></li>
+              <li><a href="./pc.html">PC</a></li>
+              <li><a href="./console.html">Console</a></li>
+              <li><a href="./mobile.html">Mobile</a></li>
+              <li><a href="./lifestyle.html">Lyfestyle</a></li>
+              <li><a href="./service.html">Servicios</a></li>
+              <li><a href="./comunity.html">Comunidad</a></li>
+              <li><a href="./index.html">Store</a></li>
+              <li><div class="container">
+               <input type="text" placeholder="Search...">
+               <div class="search"></div>
+             </div></li>
+              <li><a href="https://www.razer.com/store" target="_blank"><i class="fa-solid fa-cart-shopping"></i></a></li>
+          
+          </ul>
+          </nav>
+        <ul id="navi3">
+           
+            <li>
+                
+                
+                <img src="https://assets2.razerzone.com/images/main-menu/icons/icon-gold.svg">
+                <a href="#">Gold
+                </a>
+            </li>
+               
+            <li>
+                
+                <img src="https://assets2.razerzone.com/images/main-menu/icons/icon-silver.svg">
+                
+                <a href="#">Silver</a>
+            </li>
+            <li>
+                
+                <img src="data:image/png;base64,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" width="36" height="36" >
+                <a href="#">Diamont
+                </a>
+            </li>
+            <li>
+               
+                <img src="https://assets2.razerzone.com/images/main-menu/icons/icon-goldwebshop.svg" >
+                <a href="#">Gold Webshop</a>
+            </li>
+            <li>
+                
+                <img src="https://assets2.razerzone.com/images/main-menu/icons/icon-giftcards.svg" >
+                <a href="#">Gift Cards
+                </a>
+            </li>
+            <li>
+               
+                <img src="https://assets2.razerzone.com/images/main-menu/icons/icon-razercare.svg" >
+                <a href="#">RazerCare</a>
+            </li>
+               
+            <li>
+                
+                <img src="https://assets2.razerzone.com/images/main-menu/icons/icon-razerid.svg" >
+                <a href="#">Razer ID</a>
+            </li>
+        </ul>
+          
+                  
+           
+     
+        </ul>
+        <div class="envio">
+            <h2>Todos los pedidos superiores a 49 dólares disfrutan de envio gratuito.</h2> 
+        </div>
+        <div class="titulo-seccion10">
+            
+            <h2 id="h2sub">SERVICES</h2>
+            <p id="psub">
+              Únete a los millones de usuarios que disfrutan utilizando nuestros Servicios para enriquecer su experiencia de juego.<br>
+
+
+              Ofrecemos a los usuarios la ventaja competitiva en cualquier campo de batalla.
+               Protege tu equipo con nuestro servicio de asistencia técnica <br> y accede a los mejores servicios que te podemos ofrecer.
+
+              Desbloquea ahora tu <br>máximo potencial de juego .
+            </p>
+        </div>
+        
+   
+        <div class="sloganpagina7">
+            <h1></h1>
+            
+        <h2 id="slogan-bajotis-services">GOLD BONUS AVAILABLE</h2>
+            
+       
+        </div> 
+        
+        <div class="titulo-seccion10">
+            
+            <h2 id="h2sub">GIFT CARDS</h2>
+          
+            <p id="psub">
+              Abre las puertas a los mejores regalos para cualquier jugador. Desde periféricos para juegos hasta<br>
+               portátiles y ropa, canjea entre el mayor catálogo de artículos del mundo, <br>
+               incluidos productos raros y exclusivos que solo se encuentran aqui.
+                Los destinatarios <br>también disfrutarán de 14 días de devolución sin riesgos.
+            </p>
+        </div>
+        <div class="sloganpagina8">
+          <h1></h1>
+        </div>
+        <div class="titulo-seccion10">
+            
+          <h2 id="h2sub">ID PREMIUM </h2>
+        
+          <p id="psub">
+            Obtén una ventaja competitiva y aprovecha nuestro soporte, experiencia y comunidad con tu  ID. <br>
+            
+          Puedes acceder a montones de herramientas con tu  ID, como comprar el mejor equipo para jugadores<br>
+          en nuestro sitio web, canjear Silver, guardar tus configuraciones personalizadas en Synapse y mucho más.
+          </p>
+      </div>
+      <div class="sloganpagina9">
+        <h1></h1>  
+      </div>
+      <!-- FOOTER START -->
+      <div class="footer">
+        <div class="contain">
+        <div class="col">
+          <h1>Company</h1>
+          <ul>
+            <li>About</li>
+            <li>Mission</li>
+            <li>Services</li>
+            <li>Social</li>
+            <li>Get in touch</li>
+          </ul>
+        </div>
+        <div class="col">
+          <h1>Products</h1>
+          <ul>
+            <li>About</li>
+            <li>Mission</li>
+            <li>Services</li>
+            <li>Social</li>
+            <li>Get in touch</li>
+          </ul>
+        </div>
+        <div class="col">
+          <h1>Accounts</h1>
+          <ul>
+            <li>About</li>
+            <li>Mission</li>
+            <li>Services</li>
+            <li>Social</li>
+            <li>Get in touch</li>
+          </ul>
+        </div>
+        <div class="col">
+          <h1>Resources</h1>
+          <ul>
+            <li>Webmail</li>
+            <li>Redeem code</li>
+            <li>WHOIS lookup</li>
+            <li>Site map</li>
+            <li>Web templates</li>
+            <li>Email templates</li>
+          </ul>
+        </div>
+        <div class="col">
+          <h1>Support</h1>
+          <ul>
+            <li>Contact us</li>
+            <li>Web chat</li>
+            <li>Open ticket</li>
+          </ul>
+        </div>
+        <div class="col social">
+          <h1 class="footer_title">FOR GAMERS BY GAMERS</h1>
+          
+        </div>
+      <div class="clearfix"></div>
+      </div>
+      </div>
+      <!-- END OF FOOTER -->  
+  
+          
+     
+
+        
+
+    </body>  
+</html>        
